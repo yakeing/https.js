@@ -1,4 +1,4 @@
-# JavaScriptHttp
+# Http.js
 
 [![codecov](https://codecov.io/gh/yakeing/Http.js/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/Http.js)
 [![license](https://img.shields.io/github/license/yakeing/Http.js?color=FE7D37&logo=github)](LICENSE)
