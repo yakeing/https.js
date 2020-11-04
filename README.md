@@ -13,6 +13,6 @@ This is a pure JavaScript small program, does not need third-party software supp
 
 ## License
 
-[MIT](LICENSE)
+[MPL-2.0](LICENSE)
 
 [![license](https://badgen.net/github/license/yakeing/Http.js?color=FE7D37&icon=github)](LICENSE)
