@@ -5,7 +5,7 @@
 }(this, (function () {
   var test = {
     sayHi: function () {
-      console.log('hi');
+      console.log('no test specified');
     }
   };
 
