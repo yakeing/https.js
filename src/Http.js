@@ -1,20 +1,18 @@
-function Http(URL, RES_FUNCTION, METHOD, DATA, HEADER, ASYNC, USERNAME, PASSWORD) {
-  var ARG ={}, i = 0, res;
+function Http(ARGUMENTS, RES_FUNCTION) {
+  var ARG ={}, res;
   var DefaultArg = {
-    URL : undefined,
-    RES_FUNCTION : function(){},
-    METHOD: 'GET',
+    ASYNC : true,
     DATA : null,
     HEADER : {'Content-type':'application/x-www-form-urlencoded;charset=UTF-8'},
-    ASYNC : true,
-    USERNAME : undefined,
-    PASSWORD : undefined
+    METHOD: 'GET',
+    PASSWORD : undefined,
+    URL : undefined,
+    USERNAME : undefined
   };
   for(var k in DefaultArg) {
-    ARG[k] = arguments[i] || DefaultArg[k];
-    i++;
+    ARG[k] = ARGUMENTS[k] || DefaultArg[k];
   }
-  console.log('1.sendData', ARG.URL, ARG.METHOD, ARG.DATA, ARG.HEADER, ARG.ASYNC, ARG.RES_FUNCTION, ARG.USERNAME, ARG.PASSWORD);
+  console.log('1.sendData', ARG);
   try{
     var xhr = new XMLHttpRequest();
   }catch(e){
@@ -30,7 +28,9 @@ function Http(URL, RES_FUNCTION, METHOD, DATA, HEADER, ASYNC, USERNAME, PASSWORD
       //getResponseHeader responseURL responseType statusText
       //response responseXML
       console.log('2.receiveData:', xhr.responseText);
-      RES_FUNCTION(xhr.responseText);
+      if ( arguments[1] !== undefined ) {
+        RES_FUNCTION(xhr.responseText);
+      }
     }
   };
   //xhr.timeout = 0;
@@ -40,3 +40,4 @@ function Http(URL, RES_FUNCTION, METHOD, DATA, HEADER, ASYNC, USERNAME, PASSWORD
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
 }
+exports.Http=Http;
