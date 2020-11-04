@@ -1,0 +1,30 @@
+{
+  "name": "Http.js",
+  "version": "1.0.0",
+  "author": "Yakeing",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/yakeing/Http.js",
+  "description": "This is a pure JavaScript small program, does not need third-party software support",
+  "keywords": [
+    "JavaScript",
+    "Http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yakeing/Http.js.git"
+  },
+  "files": [
+    "Http.js"
+  ],
+  "main": "src/Http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/yakeing/Http.js/issues"
+  }
+}
