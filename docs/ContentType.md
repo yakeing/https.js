@@ -1,6 +1,8 @@
 
 ### The common types of media formats are as follows:
 
+---
+
 #### 1.常见的媒体格式类型如下:
 
 * text/html : HTML格式
