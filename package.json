@@ -21,10 +21,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "bugs": {
     "url": "https://github.com/yakeing/Http.js/issues"
   }
