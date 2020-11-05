@@ -1,8 +1,8 @@
-# Http.js
+# https.js
 
-[![codecov](https://codecov.io/gh/yakeing/Http.js/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/Http.js)
-[![TAG](https://img.shields.io/github/v/tag/yakeing/Http.js?color=28a745&logo=github)](../../releases)
-[![NPM](https://img.shields.io/npm/v/yakeing/Http.js?color=CB3837&logo=NPM)](https://www.npmjs.com/package/Http.js)
+[![codecov](https://codecov.io/gh/yakeing/https.js/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/https.js)
+[![TAG](https://img.shields.io/github/v/tag/yakeing/https.js?color=28a745&logo=github)](../../releases)
+[![NPM](https://img.shields.io/npm/v/yakeing/https.js?color=CB3837&logo=NPM)](https://www.npmjs.com/package/https.js)
 
 This is a pure JavaScript small program, does not need third-party software support
 
@@ -15,4 +15,4 @@ This is a pure JavaScript small program, does not need third-party software supp
 
 [MPL-2.0](LICENSE)
 
-[![license](https://badgen.net/github/license/yakeing/Http.js?color=FE7D37&icon=github)](LICENSE)
+[![license](https://badgen.net/github/license/yakeing/https.js?color=FE7D37&icon=github)](LICENSE)
