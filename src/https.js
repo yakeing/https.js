@@ -1,4 +1,4 @@
-function Http(ARGUMENTS) {
+function https(ARGUMENTS) {
   var ARG ={}, res;
   var DefaultArg = {
     ASYNC : ["[object Boolean]", true],
@@ -47,4 +47,4 @@ function Http(ARGUMENTS) {
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
 }
-exports.Http=Http;
+exports.https=https;
