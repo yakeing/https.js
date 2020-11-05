@@ -1,16 +1,25 @@
-function Http(ARGUMENTS, RES_FUNCTION) {
+function Http(ARGUMENTS) {
   var ARG ={}, res;
   var DefaultArg = {
-    ASYNC : true,
-    DATA : null,
-    HEADER : {'Content-type':'application/x-www-form-urlencoded;charset=UTF-8'},
-    METHOD: 'GET',
-    PASSWORD : undefined,
-    URL : undefined,
-    USERNAME : undefined
+    ASYNC : ["[object Boolean]", true],
+    DATA : ["[object String]", null],
+    //DOWNLOAD_FUNCTION : ["[object Function]", function(){}],
+    HEADER : ["[object Object]", {'Content-type':'application/x-www-form-urlencoded;charset=UTF-8'}],
+    METHOD: ["[object String]", 'GET'],
+    PASSWORD : ["[object String]", undefined],
+    RES_FUNCTION : ["[object Function]", function(){}],
+    TIMEOUT : ["[object Number]", 0],
+    //UP_FUNCTION : ["[object Function]", function(){}],
+    URL : ["[object String]", undefined],
+    USERNAME : ["[object String]", undefined],
+    WITHCREDENTIALS : ["[object Boolean]", false]
   };
   for(var k in DefaultArg) {
-    ARG[k] = ARGUMENTS[k] || DefaultArg[k];
+    if (Object.prototype.toString.call(ARGUMENTS[k]) === DefaultArg[k][0]) {
+      ARG[k] = ARGUMENTS[k];
+    } else {
+      ARG[k] = DefaultArg[k][1];
+    }
   }
   console.log('1.sendData', ARG);
   try{
@@ -23,18 +32,16 @@ function Http(ARGUMENTS, RES_FUNCTION) {
     xhr.setRequestHeader(n, ARG.HEADER[n]);
   }
   xhr.onreadystatechange = function(){
-    if(xhr.readyState == 4 && xhr.status == 200){
+    if(xhr.readyState == 4){
       //console.log('ResponseHeaders:', xhr.getAllResponseHeaders());
       //getResponseHeader responseURL responseType statusText
       //response responseXML
       console.log('2.receiveData:', xhr.responseText);
-      if ( arguments[1] !== undefined ) {
-        RES_FUNCTION(xhr.responseText);
-      }
+      ARG.RES_FUNCTION(xhr.responseText, xhr.status);
     }
   };
-  //xhr.timeout = 0;
-  //xhr.withCredentials = false;
+  xhr.timeout = ARG.TIMEOUT;
+  xhr.withCredentials = ARG.WITHCREDENTIALS; //cookie
   //xhr.upload.οnprοgress = UP_FUNCTION; //loaded total
   //xhr.οnprοgress = DOWNLOAD_FUNCTION; //loaded total
   xhr.send(ARG.DATA);
