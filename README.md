@@ -2,7 +2,7 @@
 
 [![codecov](https://codecov.io/gh/yakeing/https.js/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/https.js)
 [![TAG](https://img.shields.io/github/v/tag/yakeing/https.js?color=28a745&logo=github)](../../releases)
-[![NPM](https://img.shields.io/npm/v/yakeing/https.js?color=CB3837&logo=NPM)](https://www.npmjs.com/package/https.js)
+[![NPM](https://img.shields.io/npm/v/https.js?color=CB3837&logo=NPM)](https://www.npmjs.com/package/https.js)
 
 This is a pure JavaScript small program, does not need third-party software support
 
