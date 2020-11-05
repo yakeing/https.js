@@ -1,6 +1,6 @@
 {
   "name": "https.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Yakeing",
   "license": "MPL-2.0",
   "homepage": "https://github.com/yakeing/https.js",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/yakeing/https.js.git"
   },
   "files": [
-    "https.js"
+    "src"
   ],
   "main": "./src/https.js",
   "module": "./src/https.js",
@@ -26,6 +26,15 @@
   },
   "dependencies": {},
   "devDependencies": {},
+  "browserslist": [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "Explorer >= 8",
+        "Edge",
+        "iOS",
+        "Android"
+  ],
   "bugs": {
     "url": "https://github.com/yakeing/https.js/issues"
   }
