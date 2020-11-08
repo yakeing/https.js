@@ -60,6 +60,8 @@
           {{ posts.size }}333
           {%- endif -%}
 
+          {{ posts.size }}+++++
+
           {%- for post in posts -%}
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           {%- endfor -%}

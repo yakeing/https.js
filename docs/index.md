@@ -2,7 +2,7 @@
 layout: default
 ---
 
-文本可以是 **粗体**, _italic_,或 ~~删除线~~ 。
+文本可以是 **粗体**, _italic_,或 ~~删除线~~
 
 [链接到另一页](./another-page.html).
 
