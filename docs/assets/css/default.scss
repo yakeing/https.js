@@ -403,7 +403,7 @@ header h1 a:active{
   color:#fff;
 }
 header h1 a:hover{
-  color:#f1e05a;
+  color:#FFE70B;
 }
 header h2 {
   width:540px;
@@ -415,10 +415,16 @@ header h2 {
   color:#9ddcff;
   letter-spacing:0
 }
+header .inner a:after {
+  background-image:url(../logo/favicon.png);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:top left;
+}
 .inner {
   position:relative;
   width:940px;
-  margin:0 auto
+  margin:0 auto;
 }
 #content-wrapper {
   padding-top:30px;
