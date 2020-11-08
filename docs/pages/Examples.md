@@ -19,9 +19,23 @@ var res_function = function(res, status) {
   	// responseText
   }
 }
-
 var ARGUMENTS = {URL:url, RES_FUNCTION:res_function, HEADER:{'Content-type':'application/json;charset=UTF-8'}};
-Http(ARGUMENTS);
+https(ARGUMENTS);
+```
+
+### OPTIONS, PUT, POST, DELETE Example
+
+```javascript
+var url = "https://examples.com";
+var db = "repositories=https&language=JavaScript";
+var res_function = function(res, status) {
+  if( status == 200){ //ok
+  	var responseText = JSON.parse(res);
+  	// responseText
+  }
+}
+var ARGUMENTS = {URL:url, METHOD:'POST', DATA:db, RES_FUNCTION:res_function};
+https(ARGUMENTS);
 ```
 
 ### Author

@@ -35,7 +35,7 @@ var res_function = function(res, status) {
 }
 
 var ARGUMENTS = {URL:url, RES_FUNCTION:res_function, HEADER:{'Content-type':'application/json;charset=UTF-8'}};
-Http(ARGUMENTS);
+https(ARGUMENTS);
 ```
 If you need to learn more, go to [more examples](/pages/Example.html).
 

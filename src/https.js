@@ -21,7 +21,7 @@ function https(ARGUMENTS) {
       ARG[k] = DefaultArg[k][1];
     }
   }
-  console.log('1.sendData', ARG);
+  //console.log('1.sendData', ARG);
   try{
     var xhr = new XMLHttpRequest();
   }catch(e){
@@ -36,7 +36,7 @@ function https(ARGUMENTS) {
       //console.log('ResponseHeaders:', xhr.getAllResponseHeaders());
       //getResponseHeader responseURL responseType statusText
       //response responseXML
-      console.log('2.receiveData:', xhr.responseText);
+      //console.log('2.receiveData:', xhr.responseText);
       ARG.RES_FUNCTION(xhr.responseText, xhr.status);
     }
   };
@@ -47,4 +47,3 @@ function https(ARGUMENTS) {
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
 }
-exports.https=https;
