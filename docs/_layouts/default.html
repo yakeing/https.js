@@ -47,19 +47,16 @@
             </a>
           {% endif %}
 
-            <p class="repo-owner"><a href="{{ '/ContentType' | relative_url }}">ContentType</a></p>
-            <p class="repo-owner"><a href="{{ '/Header' | relative_url }}">Header</a></p>
-
-
-          {% if site.github.is_project_page %}
-            <p class="repo-owner">Copyright</p>
-            <p class="repo-owner"> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-          {% endif %}
+          <p class="repo-owner">Help Files</p>
+          <p><a href="{{ '/ContentType' | relative_url }}">ContentType</a></p>
+          <p><a href="{{ '/Header' | relative_url }}">Header</a></p>
 
           <p class="repo-owner">Copyright</p>
-
-          <p>This page  <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a></p>
+          {% if site.github.is_project_page %}
+          <p>This project <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> page</p>
+          {% endif %}
           <p>&copy; 2020 by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+
         </aside>
       </div>
     </div>
