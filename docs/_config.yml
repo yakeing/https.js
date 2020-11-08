@@ -1,5 +1,9 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
+title: https.js标题
+description: https.js描述
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+
+github:
+  zip_url: https://github.com/yakeing/https.js
+  another_url: https://github.com/yakeing/https.js
