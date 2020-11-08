@@ -18,7 +18,7 @@
   <body>
     <header>
       <div class="inner">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
@@ -49,6 +49,22 @@
 
           <p>For more information on this, please consult the help files.</p>
           <p class="repo-owner">Help Files:</p>
+
+          {% if site.paginate %}
+            {% assign posts = paginator.posts %} 111111
+          {% else %}
+            {% assign posts = site.posts %} 222222222
+          {% endif %}
+
+          {%- if posts.size > 0 -%}
+          {%- posts.size -%}333
+          {%- endif -%}
+
+          {%- for post in posts -%}
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {%- endfor -%}
+
+
           <p><a href="{{ '/ContentType' | relative_url }}">ContentType</a></p>
           <p><a href="{{ '/Header' | relative_url }}">Header</a></p>
 
