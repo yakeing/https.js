@@ -56,10 +56,11 @@
             {% assign pages = site.pages %}
           {% endif %}
 
-          {{ pages | array_to_sentence_string }}
-
           {%- if pages.size > 0 -%}
           {%- for page in pages -%}
+
+          {{ page | array_to_sentence_string }}
+
           <p class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></p>
           {%- endfor -%}
           {%- endif -%}
