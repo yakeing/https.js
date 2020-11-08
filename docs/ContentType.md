@@ -24,7 +24,7 @@ title: ContentType
 * application/pdf : pdf格式
 * application/msword : Word文档格式
 * application/octet-stream : 二进制流数据(如常见的文件下载)
-* application/x-www-form-urlencoded : <form encType="">中默认的encType，form表单数据被编码为key/value格式发送到服务器（表单默认的提交数据的格式）
+* application/x-www-form-urlencoded : <form encType="">中默认的`encType`，form表单数据被编码为`key/value`格式发送到服务器（表单默认的提交数据的格式）
 
 #### 3.另外一种常见的媒体格式是上传文件之时使用的:
 
