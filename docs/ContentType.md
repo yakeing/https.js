@@ -1,3 +1,8 @@
+---
+layout: default
+---
+@import "{{ site.theme }}";
+
 
 ### The common types of media formats are as follows:
 
