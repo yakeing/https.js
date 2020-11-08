@@ -395,6 +395,9 @@ header h1 {
   color:#fff;
   letter-spacing:-1px
 }
+header h1 a{
+  color:color: #fff;
+}
 header h2 {
   width:540px;
   margin-top:0;
