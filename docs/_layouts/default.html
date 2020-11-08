@@ -51,18 +51,18 @@
           <p class="repo-owner">Help Files:</p>
 
           {% if site.paginate %}
-            {% assign posts = paginator.posts %}
+            {% assign pages = paginator.pages %}
           {% else %}
-            {% assign posts = site.posts %}
-          {% endif %}
+            {% assign pages = site.pages %}
+          {% endif %}000
 
-          {%- if posts.size > 0 -%}
-          {%- for post in posts -%}
-          <p class="line"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+          {%- if pages.size > 0 -%}
+          {%- for page in pages -%}
+          <p class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></p>
           {%- endfor -%}
           {%- endif -%}
-          <p class="line"><a href="{{ '/ContentType' | relative_url }}">ContentType</a></p>
-          <p class="line"><a href="{{ '/Header' | relative_url }}">Header</a></p>
+          <p class="line"><a href="{{ '/pages/ContentType' | relative_url }}">ContentType</a></p>
+          <p><a href="{{ '/pages/Header' | relative_url }}">Header</a></p>
 
           <p class="repo-owner">Copyright:</p>
           {% if site.github.is_project_page %}
