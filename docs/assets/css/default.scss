@@ -409,7 +409,7 @@ header h1 a:hover{
 }
 header h1 a:after {
   content:url(../../logo/favicon.png);
-  top:-.2em;
+  top:-10px;
   position:relative;
 }
 header h2 {
@@ -683,6 +683,9 @@ footer a:hover {
   }
   header h1 {
     font-size:60px
+  }
+  header h1 a:after {
+  top:-5px;
   }
   header h2 {
     font-size:30px
