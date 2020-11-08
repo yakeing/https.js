@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+@import "{{ site.theme }}";
+
 Terminate these steps if header is a case-insensitive match for one of the following headers:
 
 * Accept-Charset
