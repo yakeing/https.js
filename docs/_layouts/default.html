@@ -38,18 +38,15 @@
         <aside id="sidebar">
           {% if site.show_downloads %}
             <a href="{{ site.github.tags_url }}" class="button">
-              <small>Download</small>
-              github tags
+              <small>Releases</small>Github Tags
             </a>
             <a href="{{ site.github.npm_url }}" class="button">
-              <small>Package</small>
-              NPM URL
+              <small>Package</small>NPM URL
             </a>
           {% endif %}
-
           <p>For more information on this, please consult the help files.</p>
-          <p class="repo-owner">Help Files:</p>
 
+          <p class="repo-owner">Help Files:</p>
           {% if site.paginate %}
             {% assign pages = paginator.pages | where: "dir", "/pages/" %}
           {% else %}

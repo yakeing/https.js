@@ -1,9 +1,9 @@
 title: https.js
 description: This is a pure JavaScript small program, does not need third-party software support
 show_downloads: true
-google_analytics:
+google_analytics: null
 theme: jekyll-theme-architect
 
 github:
-  tags_url: https://github.com/yakeing/https.js
+  tags_url: https://github.com/yakeing/https.js/releases
   npm_url: https://www.npmjs.com/package/https.js
