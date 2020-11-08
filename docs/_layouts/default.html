@@ -51,14 +51,13 @@
           <p class="repo-owner">Help Files:</p>
 
           {% if site.paginate %}
-            {% assign pages = paginator.pages | where: "layout", "default" %}
+            {% assign pages = paginator.pages | where: "dir", "/pages/" %}
           {% else %}
-            {% assign pages = site.pages | where: "layout", "default" %}
+            {% assign pages = site.pages | where: "dir", "/pages/" %}
           {% endif %}
 
           {%- if pages.size > 0 -%}
           {%- for page in pages -%}
-          ++{{ page}}++
           <p class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></p>
           {%- endfor -%}
           {%- endif -%}
