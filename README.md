@@ -25,7 +25,7 @@ var res_function = function(res, status) {
 var ARGUMENTS = {URL:url, RES_FUNCTION:res_function, HEADER:{'Content-type':'application/json;charset=UTF-8'}};
 https(ARGUMENTS);
 ```
-If you need to learn more, go to [more examples](/pages/Example.html).
+If you need to learn more, go to [more examples](https://https.js.org/pages/Example.html).
 
 ### Author
 
