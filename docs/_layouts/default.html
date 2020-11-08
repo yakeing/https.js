@@ -51,18 +51,17 @@
           <p class="repo-owner">Help Files:</p>
 
           {% if site.paginate %}
-            {% assign posts = paginator.posts %}111
+            {% assign pages = paginator.pages %}
           {% else %}
-            {% assign posts = site.posts %}222
+            {% assign pages = site.pages %}
           {% endif %}
 
-          {%- if posts.size > 0 -%}
-          {{ posts.size }}333
+          {%- if pages.size > 0 -%}
+          {{ pages.size }}333
           {%- endif -%}
 
-          {{ posts.size }}+++++
 
-          {%- for post in posts -%}
+          {%- for post in pages -%}
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           {%- endfor -%}
 
