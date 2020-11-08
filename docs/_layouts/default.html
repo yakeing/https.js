@@ -51,12 +51,12 @@
           <p class="repo-owner">Help Files:</p>
 
           {% if site.paginate %}
-            {% assign pages = paginator.pages %}
+            {% assign pages2 = paginator.pages %}
           {% else %}
-            {% assign pages = site.pages %}
+            {% assign pages2 = site.pages %}
           {% endif %}
 
-          {{ site.pages | array_to_sentence_string }}+0
+          {% assign pages = site.pages | where: "layout", "default" %}
 
           {%- if pages.size > 0 -%}
           {%- for page in pages -%}
