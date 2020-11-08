@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Header
 ---
 
 Terminate these steps if header is a case-insensitive match for one of the following headers:
