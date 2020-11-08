@@ -30,7 +30,6 @@ title: ContentType
 
 * multipart/form-data : 需要在表单中进行文件上传时，就需要使用该格式
 
----
 ### Requests
 
 | Header | 解释 | 示例 |
