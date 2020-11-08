@@ -56,9 +56,9 @@
             {% assign posts = site.posts %}
           {% endif %}
 
-          {% if posts.size > 0 %}
+          {%- if posts.size > 0 -%}
           {% posts.size %}333
-          {% endif %}
+          {%- endif -%}
 
           {%- for post in posts -%}
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
