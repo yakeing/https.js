@@ -51,20 +51,17 @@
           <p class="repo-owner">Help Files:</p>
 
           {% if site.paginate %}
-            {% assign pages2 = paginator.pages %}
+            {% assign pages = paginator.pages | where: "layout", "default" %}
           {% else %}
-            {% assign pages2 = site.pages %}
+            {% assign pages = site.pages | where: "layout", "default" %}
           {% endif %}
-
-          {% assign pages = site.pages | where: "layout", "default" %}
 
           {%- if pages.size > 0 -%}
           {%- for page in pages -%}
           <p class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></p>
           {%- endfor -%}
           {%- endif -%}
-          <p class="line"><a href="{{ '/pages/ContentType' | relative_url }}">ContentType</a></p>
-          <p><a href="{{ '/pages/Header' | relative_url }}">Header</a></p>
+          <p><a href="<a href="{{ "/" | relative_url }}">">Hone</a></p>
 
           <p class="repo-owner">Copyright:</p>
           {% if site.github.is_project_page %}
