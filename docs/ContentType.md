@@ -1,5 +1,6 @@
 ---
 layout: default
+title: ContentType
 ---
 
 ### The common types of media formats are as follows:
