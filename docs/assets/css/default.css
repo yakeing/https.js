@@ -395,8 +395,12 @@ header h1 {
   color:#fff;
   letter-spacing:-1px
 }
-header h1 a{
+header h1 a,
+header h1 a:active{
   color:#fff;
+}
+header h1 a:hover{
+  color:#f1e05a;
 }
 header h2 {
   width:540px;
@@ -435,6 +439,14 @@ aside#sidebar {
 }
 aside#sidebar p.repo-owner,aside#sidebar p.repo-owner a {
   font-weight:bold
+}
+aside#sidebar p.repo-owner{
+  border-top: 1px solid #eee;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+aside#sidebar p.line {
+  margin-bottom: 8px;
 }
 #downloads {
   margin-bottom:40px
