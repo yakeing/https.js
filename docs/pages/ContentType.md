@@ -3,7 +3,7 @@ layout: default
 title: ContentType
 ---
 
-# The common types of media formats are as follows:
+## The common types of media formats are as follows:
 
 #### 1.常见的媒体格式类型如下:
 
