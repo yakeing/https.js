@@ -98,7 +98,7 @@ end
 
 ### 大图
 
-![分支](https://guides.github.com/activities/hello- world/branching.png)
+![分支](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### 定义列表可以与HTML语法一起使用。
