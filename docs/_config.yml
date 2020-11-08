@@ -5,6 +5,6 @@ google_analytics:
 theme: jekyll-theme-architect
 
 github:
-  zip_url: https://github.com/yakeing/https.js
-  tar_url: https://github.com/yakeing/https.js
+  tags_url: https://github.com/yakeing/https.js
+  npm_url: https://www.npmjs.com/package/https.js
   another_url: https://github.com/yakeing/https.js
