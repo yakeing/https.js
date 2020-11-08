@@ -15,6 +15,30 @@ This is a pure JavaScript small program, does not need third-party software supp
 - Pure JavaScript writing
 - A simple class file
 
+## Installation
+
+Use [Node.js](https://nodejs.org/) to install the library. Of course, You can go to [package](https://www.npmjs.com/package/https.js) to view.
+
+```console
+npm i https.js
+```
+
+## Code Example
+
+```javascript
+var url = "https://examples.com";
+var res_function = function(res, status) {
+  if( status != 200){ //ok
+  	var responseText = JSON.parse(res);
+  	// responseText
+  }
+}
+
+var ARGUMENTS = {URL:url, RES_FUNCTION:res_function, HEADER:{'Content-type':'application/json;charset=UTF-8'}};
+Http(ARGUMENTS);
+```
+If you need to learn more, go to [more examples](/pages/Example.html).
+
 ## License
 
 [MPL-2.0](https://github.com/yakeing/https.js/blob/main/LICENSE)
