@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 文本可以是 **粗体**, _italic_,或 ~~删除线~~ 。
