@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
-title：['https.js名称']
-description：['https.js描述']
+title：'https.js名称'
+description：'https.js描述'
 #表示是否提供下载URL
 show_downloads：true
 #google_analytics：12345
