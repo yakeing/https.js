@@ -54,7 +54,9 @@
             {% assign pages = paginator.pages %}
           {% else %}
             {% assign pages = site.pages %}
-          {% endif %}000
+          {% endif %}
+
+          {{ pages | array_to_sentence_string }}
 
           {%- if pages.size > 0 -%}
           {%- for page in pages -%}
