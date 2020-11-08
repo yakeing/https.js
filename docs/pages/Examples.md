@@ -3,7 +3,7 @@ layout: default
 title: Examples
 ---
 
-Terminate these steps if header is a case-insensitive match for one of the following headers:
+> Terminate these steps if header is a case-insensitive match for one of the following headers:
 
 ### GET Example
 
