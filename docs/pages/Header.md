@@ -30,3 +30,16 @@ Terminate these steps if header is a case-insensitive match for one of the follo
 … or if the start of header is a case-insensitive match for `Proxy-` or `Sec-` (including when header is just `Proxy-` or `Sec-` ).
 
 The above headers are controlled by the user agent to let it control those aspects of transport. This guarantees data integrity to some extent. Header names starting with `Sec-` are not allowed to be set to allow new headers to be minted that are guaranteed not to come fromXMLHttpRequest.
+
+
+### Author
+
+weibo: [yakeing](https://weibo.com/yakeing)
+
+twitter: [yakeing](https://twitter.com/yakeing)
+
+## License
+
+[MPL-2.0](https://github.com/yakeing/https.js/blob/main/LICENSE)
+
+[![license](https://badgen.net/github/license/yakeing/https.js?color=FE7D37&icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)

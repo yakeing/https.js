@@ -274,3 +274,14 @@ title: ContentType
 | .x_t | application/x-x_t | .ipa | application/vnd.iphone |
 | .apk | application/vnd.android.package-archive | .xap | application/x-silverlight-app |
 
+### Author
+
+weibo: [yakeing](https://weibo.com/yakeing)
+
+twitter: [yakeing](https://twitter.com/yakeing)
+
+## License
+
+[MPL-2.0](https://github.com/yakeing/https.js/blob/main/LICENSE)
+
+[![license](https://badgen.net/github/license/yakeing/https.js?color=FE7D37&icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)

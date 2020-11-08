@@ -23,3 +23,16 @@ Http(ARGUMENTS);
 Learn more about [header](/pages/Header.html).
 
 Learn more about header [Content Type](/pages/ContentType.html).
+
+
+### Author
+
+weibo: [yakeing](https://weibo.com/yakeing)
+
+twitter: [yakeing](https://twitter.com/yakeing)
+
+## License
+
+[MPL-2.0](https://github.com/yakeing/https.js/blob/main/LICENSE)
+
+[![license](https://badgen.net/github/license/yakeing/https.js?color=FE7D37&icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)

@@ -39,6 +39,13 @@ Http(ARGUMENTS);
 ```
 If you need to learn more, go to [more examples](/pages/Example.html).
 
+
+### Author
+
+weibo: [yakeing](https://weibo.com/yakeing)
+
+twitter: [yakeing](https://twitter.com/yakeing)
+
 ## License
 
 [MPL-2.0](https://github.com/yakeing/https.js/blob/main/LICENSE)
