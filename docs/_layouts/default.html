@@ -59,7 +59,7 @@
           {%- if pages.size > 0 -%}
           {%- for page in pages -%}
 
-          {{ page | array_to_sentence_string }}
+          {{ page | array_to_sentence_string }}+0
 
           <p class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></p>
           {%- endfor -%}
