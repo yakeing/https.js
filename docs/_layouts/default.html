@@ -55,14 +55,14 @@
             {% assign pages = site.pages | where: "dir", "/pages/" %}
           {% endif %}
 
-          {%- if pages.size > 0 -%}
           <ul>
+          {%- if pages.size > 0 -%}
           {%- for page in pages -%}
           <li class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
           {%- endfor -%}
-          </ul>
           {%- endif -%}
-          <p><a href="{{ "/" | relative_url }}">Home</a></p>
+          <li><a href="{{ "/" | relative_url }}">Home</a></li>
+          </ul>
 
           <p class="repo-owner">Copyright:</p>
           {% if site.github.is_project_page %}
