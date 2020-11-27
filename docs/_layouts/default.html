@@ -56,9 +56,11 @@
           {% endif %}
 
           {%- if pages.size > 0 -%}
+          <ul>
           {%- for page in pages -%}
-          <p class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></p>
+          <li class="line"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
           {%- endfor -%}
+          </ul>
           {%- endif -%}
           <p><a href="{{ "/" | relative_url }}">Home</a></p>
 
@@ -66,7 +68,7 @@
           {% if site.github.is_project_page %}
           <p>This project <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> page</p>
           {% endif %}
-          <p>&copy; 2020 by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p>&copy; 2021 by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
 
         </aside>
       </div>
