@@ -21,6 +21,7 @@
   ],
   "main": "./src/https.js",
   "module": "./src/https.js",
+  "type": "module",
   "scripts": {
     "test": "node index.test.js"
   },
