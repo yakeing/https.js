@@ -47,4 +47,4 @@ function https(ARGUMENTS) {
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
 }
-module.exports = https;
+module.https = https;
