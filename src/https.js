@@ -1,4 +1,4 @@
-export function https(ARGUMENTS) {
+function https(ARGUMENTS) {
   var ARG ={}, res;
   var DefaultArg = {
     ASYNC : ["[object Boolean]", true],
@@ -47,3 +47,4 @@ export function https(ARGUMENTS) {
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
 }
+module.exports = https;
