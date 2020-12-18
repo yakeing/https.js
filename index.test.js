@@ -6,7 +6,7 @@ async function run() {
       var res_function = function(res, status) {
         if( status != 200){ //ok
           // responseText
-          return 1;
+          return 0;
         }
       }
 
