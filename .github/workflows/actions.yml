@@ -25,8 +25,8 @@ jobs:
     - name: install codecov
       run: |
         sudo timedatectl set-timezone "Asia/Shanghai"
+        npm install
         npm install -g codecov
     - name: test
       run: |
-        npm ci
         npm test
