@@ -22,7 +22,7 @@
   "main": "./src/https.js",
   "module": "./src/https.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.mjs"
   },
   "dependencies": {},
   "devDependencies": {},
