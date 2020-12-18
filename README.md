@@ -14,7 +14,7 @@ This is a pure JavaScript small program, does not need third-party software supp
 ## Code Example
 
 ```javascript
-var url = "https://examples.com";
+var url = "https://example.com";
 var res_function = function(res, status) {
   if( status == 200){ //ok
   	var responseText = JSON.parse(res);
