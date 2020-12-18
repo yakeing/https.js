@@ -12,7 +12,7 @@ Learn more about header [Content Type](/pages/ContentType.html).
 ### GET Example
 
 ```javascript
-var url = "https://examples.com";
+var url = "https://example.com";
 var res_function = function(res, status) {
   if( status == 200){ //ok
   	var responseText = JSON.parse(res);
@@ -26,7 +26,7 @@ https(ARGUMENTS);
 ### OPTIONS, PUT, POST, DELETE Example
 
 ```javascript
-var url = "https://examples.com";
+var url = "https://example.com";
 var db = "repositories=https&language=JavaScript";
 var res_function = function(res, status) {
   if( status == 200){ //ok
