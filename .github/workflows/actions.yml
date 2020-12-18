@@ -29,5 +29,4 @@ jobs:
         npm install -g codecov
     - name: test
       run: |
-        npm init
         npm test
