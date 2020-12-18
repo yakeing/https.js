@@ -22,10 +22,19 @@ function https(ARGUMENTS) {
     }
   }
   //console.log('1.sendData', ARG);
-  try{
-    var xhr = new XMLHttpRequest();
-  }catch(e){
-    var xhr = new ActiveXObject("Microsoft.XMLHTTP");
+  var NEW_XHR = [
+        function () { return new XMLHttpRequest () },
+        function () { return new ActiveXObject ("Msxml2.XMLHTTP") },
+        function () { return new ActiveXObject ("Msxml3.XMLHTTP") },
+        function () { return new ActiveXObject ("Microsoft.XMLHTTP") }
+  ];
+  for(var x in NEW_XHR) {
+    try{
+      var xhr = NEW_XHR[x]();
+    }catch(e){
+      continue;
+    }
+    break;
   }
   xhr.open(ARG.METHOD, ARG.URL, ARG.ASYNC, ARG.USERNAME, ARG.PASSWORD);
   for(var n in ARG.HEADER) {
