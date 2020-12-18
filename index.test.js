@@ -1,5 +1,5 @@
 const core = require('@actions/core');
-const https = require('https');
+const https = require('./src/https.js');
 async function run() {
   try {
       var url = "https://example.com";
