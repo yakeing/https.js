@@ -1,5 +1,5 @@
 const core = require('@actions/core');
-import { https } from 'src/https';
+import { https } from 'src/https.js';
 async function run() {
   try {
       var url = "https://example.com";
