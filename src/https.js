@@ -1,4 +1,4 @@
-export function https(ARGUMENTS) {
+function https(ARGUMENTS) {
   var ARG ={}, res;
   var DefaultArg = {
     ASYNC : ["[object Boolean]", true],
