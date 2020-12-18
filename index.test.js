@@ -1,3 +1,4 @@
+const core = require('@actions/core');
 import { https } from 'src/https';
 async function run() {
   try {
