@@ -28,7 +28,7 @@ function https(ARGUMENTS) {
         function () { return new ActiveXObject ("Msxml3.XMLHTTP") },
         function () { return new ActiveXObject ("Microsoft.XMLHTTP") }
   ];
-  for(var x in NEW_XHR) {
+  for(var i=0; i<NEW_XHR.length; i++){
     try{
       var xhr = NEW_XHR[x]();
     }catch(e){
