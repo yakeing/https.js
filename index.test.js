@@ -1,5 +1,5 @@
 const https = require('./src/https');
-var url = "https://example.com";
+var url = "https://api.github.com/";
 var res_function = function(res, status) {
   if( status != 200){ //ok
     // responseText
