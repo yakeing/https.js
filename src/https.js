@@ -30,7 +30,7 @@ function https(ARGUMENTS) {
   ];
   for(var i=0; i<NEW_XHR.length; i++){
     try{
-      var xhr = NEW_XHR[x]();
+      var xhr = NEW_XHR[i]();
     }catch(e){
       continue;
     }
