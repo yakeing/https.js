@@ -21,9 +21,8 @@
   ],
   "main": "./src/https.js",
   "module": "./src/https.js",
-  "type": "module",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
   "devDependencies": {},
