@@ -1,4 +1,4 @@
-const https = require('./src/https.js');
+const https = require('./src/https');
 var url = "https://example.com";
 var res_function = function(res, status) {
   if( status != 200){ //ok
