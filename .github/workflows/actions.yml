@@ -20,6 +20,9 @@ jobs:
         # Edit the following line to install packages required to run your script.
         # required-packages: https.js
         script: |
+          console.log(process.execPath)
+          console.log(__dirname)
+          console.log(process.cwd())
           const https = require('./src/https.js')
 
           // https
