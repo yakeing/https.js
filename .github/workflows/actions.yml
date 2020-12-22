@@ -20,7 +20,7 @@ jobs:
         # Edit the following line to install packages required to run your script.
         # required-packages: https.js
         script: |
-          const https = require('./src/https')
+          const https = require('./src/https.js')
 
           // https
           const run = await https('https://ntp-a1.nict.go.jp/cgi-bin/json')
