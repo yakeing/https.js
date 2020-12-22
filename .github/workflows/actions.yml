@@ -1,0 +1,46 @@
+name: https.js CI
+
+on:
+  push:
+    branches:
+      - main
+      # - src/*
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x]
+
+    steps:
+      uses: satackey/action-js-inline@v0.0.3
+      id: getdata
+      with:
+        # Edit the following line to install packages required to run your script.
+        required-packages: axios
+        script: |
+          const core = require('@actions/core')
+          const axios = require('axios')
+
+          // branch
+          const ref = process.env.GITHUB_REF // refs/heads/master
+          const branch = ref.split('/').slice(-1)[0] // refs/heads/master → master
+          console.log(`branch: ${branch}`)
+          core.setOutput('branch', branch)
+
+          // date
+          const dateResponse = await axios('https://ntp-a1.nict.go.jp/cgi-bin/json')
+          /* {
+              "id": "ntp-a1.nict.go.jp",
+              "it": 0.000,
+              "st": 1585285722.922,
+              "leap": 36,
+              "next": 1483228800,
+              "step": 1
+          } */
+          const date = new Date(dateResponse.data.st)
+          console.log(`date: ${date}`)
+          core.setOutput('date', date)
