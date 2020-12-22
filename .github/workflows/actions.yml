@@ -23,8 +23,3 @@ jobs:
           console.log(process.execPath)
           console.log(__dirname)
           console.log(process.cwd())
-          const https = require('./src/https.js')
-
-          // https
-          const run = await https('https://ntp-a1.nict.go.jp/cgi-bin/json')
-          console.log(`date: ${run}`)
