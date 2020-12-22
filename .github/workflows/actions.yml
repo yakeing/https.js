@@ -21,7 +21,7 @@ jobs:
         # required-packages: https.js
         script: |
           const dir = process.cwd()
-          const https = require(dir+'/src/https.js')
+          const https = require(dir+'/src/https')
 
           // https
           const run = await https('https://ntp-a1.nict.go.jp/cgi-bin/json')
