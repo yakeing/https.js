@@ -1,6 +1,6 @@
 # https.js
 
-[![codecov](https://badging.tk/codecov/gh/yakeing/https.js?icon=codecov&branch=main)](https://codecov.io/gh/yakeing/https.js)
+[![codecov](https://badging.tk/codecov/coverage/gh/yakeing/https.js?icon=codecov&branch=main)](https://codecov.io/gh/yakeing/https.js)
 [![TAG](https://badging.tk/github/tag/yakeing/https.js?icon=github)](../../releases)
 [![NPM](https://badging.tk/npm/version/https.js?icon=npm)](https://www.npmjs.com/package/https.js)
 
