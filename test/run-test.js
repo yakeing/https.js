@@ -10,7 +10,9 @@ var res_function = function(res, status) {
 var ARGUMENTS = {
   URL:url,
   RES_FUNCTION:res_function,
-  HEADER:{'Content-type':'text/html; charset=UTF-8'}
+  HEADER:{
+    'Content-type':'text/html; charset=UTF-8'
+  }
 };
 
 https(ARGUMENTS);
