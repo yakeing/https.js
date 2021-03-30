@@ -6,9 +6,11 @@ var res_function = function(res, status) {
   	//responseText
   }
 }
+
 var ARGUMENTS = {
   URL:url,
   RES_FUNCTION:res_function,
   HEADER:{'Content-type':'text/html; charset=UTF-8'}
 };
+
 https(ARGUMENTS);
