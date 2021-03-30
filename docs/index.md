@@ -52,4 +52,4 @@ twitter: [yakeing](https://twitter.com/yakeing)
 
 ## License
 
-[MPL-2.0](https://badging.tk/static/license/555/MPL-2.0/FE7D37?icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)
+[![MPL-2.0](https://badging.tk/static/license/555/MPL-2.0/FE7D37?icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)
