@@ -1,8 +1,8 @@
-name: page
+name: https
 
 on:
   push:
-    paths:
+    branches:
     - main
     - src/*
     - test/*
