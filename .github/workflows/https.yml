@@ -2,8 +2,9 @@ name: https
 
 on:
   push:
-    paths:
+    branches:
     - main
+    paths:
     - src/*
     - test/*
 
@@ -24,7 +25,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Generate coverage report
       run: |
-        npm install -g codecov
+        npm ci
         npm run build --if-present
         npm test
     - name: Upload coverage to Codecov
