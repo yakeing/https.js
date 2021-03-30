@@ -15,6 +15,14 @@ This is a pure JavaScript small program, does not need third-party software supp
 - Pure JavaScript writing
 - A simple class file
 
+## Installation
+
+Use [Node.js](https://nodejs.org/) to install the library. Of course, You can go to [package](https://www.npmjs.com/package/https.js) to view.
+
+```console
+npm i https.js
+```
+
 ## Code Example
 
 ```javascript
@@ -39,6 +47,4 @@ twitter: [yakeing](https://twitter.com/yakeing)
 
 ## License
 
-[MPL-2.0](LICENSE)
-
-[![license](https://badging.tk/static/license/555/MPL-2.0/FE7D37?icon=github)](LICENSE)
+[![MPL-2.0](https://badging.tk/static/license/555/MPL-2.0/FE7D37?icon=github)](LICENSE)
