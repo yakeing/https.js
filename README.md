@@ -6,6 +6,8 @@
 
 [![Package](https://badging.tk/npm/package/https.js)](https://www.npmjs.com/package/https.js)
 
+[![Package](https://badging.tk/codecov/totals/gh/yakeing/https.js)](https://www.npmjs.com/package/https.js)
+
 This is a pure JavaScript small program, does not need third-party software support
 
 ## Features
