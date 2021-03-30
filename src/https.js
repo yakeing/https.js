@@ -56,3 +56,6 @@ function https(ARGUMENTS) {
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
 }
+if('function' === typeof module){
+   module.exports = async https;
+}
