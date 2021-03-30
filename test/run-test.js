@@ -1,6 +1,6 @@
 const https = require('../src/https.js');
 
-var url = "https://example.com";
+var url = 'https://example.com';
 var res_function = function(res, status) {
   if( status == 200){ //ok
   	// responseText
