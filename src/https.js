@@ -1,4 +1,4 @@
-function https(ARGUMENTS) {
+module.exports = async function https(ARGUMENTS) {
   var ARG ={}, res;
   var DefaultArg = {
     ASYNC : ["[object Boolean]", true],
@@ -55,7 +55,4 @@ function https(ARGUMENTS) {
   //xhr.οnprοgress = DOWNLOAD_FUNCTION; //loaded total
   xhr.send(ARG.DATA);
   //xhr.abort(); stop
-}
-if('function' === typeof module){
-   module.exports = async https;
 }
