@@ -6,7 +6,7 @@
 
 [![Package](https://badging.tk/npm/package/https.js)](https://www.npmjs.com/package/https.js)
 
-[![codecov-totals](https://badging.tk/codecov/totals/gh/yakeing/https.js)](https://www.npmjs.com/package/https.js)
+[![codecov-totals](https://badging.tk/codecov/totals/gh/yakeing/https.js)](https://codecov.io/gh/yakeing/https.js)
 
 This is a pure JavaScript small program, does not need third-party software support
 
