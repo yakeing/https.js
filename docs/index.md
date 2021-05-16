@@ -4,9 +4,9 @@ layout: default
 
 # https.js
 
-[![codecov](https://codecov.io/gh/yakeing/https.js/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/https.js)
-[![TAG](https://img.shields.io/github/v/tag/yakeing/https.js?color=28a745&logo=github)](https://github.com/yakeing/https.js/releases)
-[![NPM](https://img.shields.io/npm/v/https.js?color=CB3837&logo=NPM)](https://www.npmjs.com/package/https.js)
+[![codecov](https://4.vercel.app/codecov/coverage/gh/yakeing/https.js?icon=codecov&branch=main)](https://codecov.io/gh/yakeing/https.js)
+[![TAG](https://4.vercel.app/github/tag/yakeing/https.js?icon=github)](https://github.com/yakeing/https.js/releases)
+[![NPM](https://4.vercel.app/npm/version/https.js?icon=npm)](https://www.npmjs.com/package/https.js)
 
 [![Package](https://4.vercel.app/npm/package/https.js)](https://www.npmjs.com/package/https.js)
 
