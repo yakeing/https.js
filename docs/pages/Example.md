@@ -48,4 +48,4 @@ twitter: [yakeing](https://twitter.com/yakeing)
 
 [MPL-2.0](https://github.com/yakeing/https.js/blob/main/LICENSE)
 
-[![license](https://badging.vercel.app/static/license/555/MPL-2.0/FE7D37?icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)
+[![license](https://4.vercel.app/static/license/555/MPL-2.0/FE7D37?icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)
