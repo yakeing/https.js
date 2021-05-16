@@ -8,9 +8,9 @@ layout: default
 [![TAG](https://img.shields.io/github/v/tag/yakeing/https.js?color=28a745&logo=github)](https://github.com/yakeing/https.js/releases)
 [![NPM](https://img.shields.io/npm/v/https.js?color=CB3837&logo=NPM)](https://www.npmjs.com/package/https.js)
 
-[![Package](https://badging.tk/npm/package/https.js)](https://www.npmjs.com/package/https.js)
+[![Package](https://badging.vercel.app/npm/package/https.js)](https://www.npmjs.com/package/https.js)
 
-[![codecov-totals](https://badging.tk/codecov/totals/gh/yakeing/https.js)](https://codecov.io/gh/yakeing/https.js)
+[![codecov-totals](https://badging.vercel.app/codecov/totals/gh/yakeing/https.js)](https://codecov.io/gh/yakeing/https.js)
 
 This is a pure JavaScript small program, does not need third-party software support
 
@@ -52,4 +52,4 @@ twitter: [yakeing](https://twitter.com/yakeing)
 
 ## License
 
-[![MPL-2.0](https://badging.tk/static/license/555/MPL-2.0/FE7D37?icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)
+[![MPL-2.0](https://badging.vercel.app/static/license/555/MPL-2.0/FE7D37?icon=github)](https://github.com/yakeing/https.js/blob/main/LICENSE)
